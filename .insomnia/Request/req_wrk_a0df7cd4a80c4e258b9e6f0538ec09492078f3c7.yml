@@ -1,0 +1,31 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09492078f3c7
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657560231139
+created: 1657559558418
+url: "{{ base_url }}/api/authenticate"
+name: /api/authenticate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "admin",
+      "password": "admin",
+      "rememberMe": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_35886cd98a1c4d56b34944b259437fd9
+authentication: {}
+metaSortKey: -1657559558368.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

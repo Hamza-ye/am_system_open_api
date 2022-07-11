@@ -1,0 +1,24 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09498b2a09d1
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558216
+created: 1657559558216
+url: "{{ base_url }}/api/_search/chv-stock-types"
+name: /api/_search/chv-stock-types
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: query
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1657559558216
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

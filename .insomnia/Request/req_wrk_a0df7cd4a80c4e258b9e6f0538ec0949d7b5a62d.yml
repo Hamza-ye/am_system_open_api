@@ -1,0 +1,35 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949d7b5a62d
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558393
+created: 1657559558393
+url: "{{ base_url }}/api/age-groups"
+name: /api/age-groups
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "uid": "string",
+      "code": "string",
+      "name": "string",
+      "shortName": "string",
+      "description": "string",
+      "created": "2022-07-11T17:12:33.692Z",
+      "updated": "2022-07-11T17:12:33.692Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559558393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

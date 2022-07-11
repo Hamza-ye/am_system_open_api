@@ -1,0 +1,21 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09494170efaa
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559864
+created: 1657559559864
+url: "{{ base_url }}/api/organisation-unit-group-sets/{{ id }}"
+name: /api/organisation-unit-group-sets/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657559559864
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

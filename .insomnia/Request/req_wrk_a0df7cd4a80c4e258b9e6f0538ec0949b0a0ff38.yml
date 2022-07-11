@@ -1,0 +1,25 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949b0a0ff38
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559691
+created: 1657559559691
+url: "{{ base_url }}/api/malaria-cases-reports/{{ id }}"
+name: /api/malaria-cases-reports/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559559691
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

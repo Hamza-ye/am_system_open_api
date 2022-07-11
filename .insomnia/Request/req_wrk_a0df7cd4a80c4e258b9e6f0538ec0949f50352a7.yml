@@ -1,0 +1,21 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949f50352a7
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559437
+created: 1657559559437
+url: "{{ base_url }}/api/chvs/{{ id }}"
+name: /api/chvs/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657559559437
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

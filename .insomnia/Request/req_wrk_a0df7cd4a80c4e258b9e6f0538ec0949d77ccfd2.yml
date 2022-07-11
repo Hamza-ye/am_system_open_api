@@ -1,0 +1,57 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949d77ccfd2
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559031
+created: 1657559559031
+url: "{{ base_url }}/api/age-categories/{{ id }}"
+name: /api/age-categories/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "uid": "string",
+      "code": "string",
+      "name": "string",
+      "shortName": "string",
+      "description": "string",
+      "created": "2022-07-11T17:12:33.689Z",
+      "updated": "2022-07-11T17:12:33.689Z",
+      "createdBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.689Z"
+      },
+      "updatedBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.689Z"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559559031
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

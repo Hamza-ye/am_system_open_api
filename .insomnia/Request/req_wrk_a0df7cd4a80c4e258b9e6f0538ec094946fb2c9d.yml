@@ -1,0 +1,21 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec094946fb2c9d
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559040
+created: 1657559559040
+url: "{{ base_url }}/api/age-categories/{{ id }}"
+name: /api/age-categories/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657559559040
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

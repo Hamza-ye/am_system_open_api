@@ -1,0 +1,21 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949df961e4d
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559560158
+created: 1657559560158
+url: "{{ base_url }}/api/relative-periods/{{ id }}"
+name: /api/relative-periods/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657559560158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949885b485b
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558946
+created: 1657559558946
+url: "{{ base_url }}/api/period-types"
+name: /api/period-types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657559558946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

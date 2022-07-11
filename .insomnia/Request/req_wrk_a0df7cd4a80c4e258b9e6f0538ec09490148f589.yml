@@ -1,0 +1,32 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09490148f589
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568359724
+created: 1657559558326
+url: "{{ base_url }}/api/account/change-password"
+name: /api/account/change-password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "currentPassword": "string",
+      "newPassword": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3b291b9996b84e359145cfc08d3afceb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

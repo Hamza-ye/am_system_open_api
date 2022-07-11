@@ -1,0 +1,27 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09492fad97c3
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568412723
+created: 1657559558271
+url: "{{ base_url }}/api/activate"
+name: /api/activate
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    disabled: false
+    value: string
+    id: pair_69ad08afd949460590e81edfdc04a1af
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558271
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

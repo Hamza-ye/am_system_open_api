@@ -1,0 +1,33 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09498f507546
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558777
+created: 1657559558777
+url: "{{ base_url }}/api/malaria-cases-reports"
+name: /api/malaria-cases-reports
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "0"
+  - name: size
+    disabled: true
+    value: "20"
+  - name: sort
+    disabled: true
+    value: string
+  - name: eagerload
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1657559558777
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

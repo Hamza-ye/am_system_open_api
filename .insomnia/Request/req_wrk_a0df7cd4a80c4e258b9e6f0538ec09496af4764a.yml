@@ -1,0 +1,23 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09496af4764a
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568379292
+created: 1657559558309
+url: "{{ base_url }}/api/authorities"
+name: /api/authorities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558309
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

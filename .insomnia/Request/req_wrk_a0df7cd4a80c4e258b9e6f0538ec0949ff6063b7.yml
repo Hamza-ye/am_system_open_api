@@ -1,0 +1,28 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949ff6063b7
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568336924
+created: 1657559558343
+url: "{{ base_url }}/api/account/reset-password/init"
+name: /api/account/reset-password/init
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '"string"'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8cc512e49b804e89acceb72e9f07fd4f
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558343
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

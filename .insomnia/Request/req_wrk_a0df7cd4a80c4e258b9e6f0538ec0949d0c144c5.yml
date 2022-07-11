@@ -1,0 +1,25 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949d0c144c5
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558631
+created: 1657559558631
+url: "{{ base_url }}/api/data-input-periods"
+name: /api/data-input-periods
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559558631
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

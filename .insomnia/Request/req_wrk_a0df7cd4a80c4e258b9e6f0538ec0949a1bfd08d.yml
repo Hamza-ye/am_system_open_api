@@ -1,0 +1,67 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949a1bfd08d
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559560150
+created: 1657559560150
+url: "{{ base_url }}/api/relative-periods/{{ id }}"
+name: /api/relative-periods/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "thisDay": true,
+      "yesterday": true,
+      "last3Days": true,
+      "last7Days": true,
+      "last14Days": true,
+      "thisMonth": true,
+      "lastMonth": true,
+      "thisBimonth": true,
+      "lastBimonth": true,
+      "thisQuarter": true,
+      "lastQuarter": true,
+      "thisSixMonth": true,
+      "lastSixMonth": true,
+      "weeksThisYear": true,
+      "monthsThisYear": true,
+      "biMonthsThisYear": true,
+      "quartersThisYear": true,
+      "thisYear": true,
+      "monthsLastYear": true,
+      "quartersLastYear": true,
+      "lastYear": true,
+      "last5Years": true,
+      "last12Months": true,
+      "last6Months": true,
+      "last3Months": true,
+      "last6BiMonths": true,
+      "last4Quarters": true,
+      "last2SixMonths": true,
+      "thisFinancialYear": true,
+      "lastFinancialYear": true,
+      "last5FinancialYears": true,
+      "thisWeek": true,
+      "lastWeek": true,
+      "thisBiWeek": true,
+      "lastBiWeek": true,
+      "last4Weeks": true,
+      "last4BiWeeks": true,
+      "last12Weeks": true,
+      "last52Weeks": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559560150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

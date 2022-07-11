@@ -1,0 +1,37 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09490045d915
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559676
+created: 1657559559676
+url: "{{ base_url }}/api/gps-locations/{{ id }}"
+name: /api/gps-locations/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "uid": "string",
+      "code": "string",
+      "created": "2022-07-11T17:12:33.685Z",
+      "updated": "2022-07-11T17:12:33.685Z",
+      "latitude": 0,
+      "longitude": 0,
+      "timestamp": "2022-07-11T17:12:33.685Z",
+      "altitude": 0,
+      "accuracy": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559559676
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

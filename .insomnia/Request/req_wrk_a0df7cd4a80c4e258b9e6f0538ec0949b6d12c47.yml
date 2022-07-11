@@ -1,0 +1,87 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949b6d12c47
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558480
+created: 1657559558480
+url: "{{ base_url }}/api/chv-ed-sessions"
+name: /api/chv-ed-sessions
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "uid": "string",
+      "created": "2022-07-11T17:12:33.692Z",
+      "updated": "2022-07-11T17:12:33.692Z",
+      "noOfSessions": 0,
+      "noOfBeneficiaries": 0,
+      "status": "string",
+      "sessionType": {
+        "id": 0,
+        "uid": "string",
+        "code": "string",
+        "name": "string",
+        "shortName": "string",
+        "description": "string",
+        "created": "2022-07-11T17:12:33.692Z",
+        "updated": "2022-07-11T17:12:33.692Z"
+      },
+      "chv": {
+        "id": 0,
+        "uid": "string",
+        "code": "string",
+        "created": "2022-07-11T17:12:33.692Z",
+        "updated": "2022-07-11T17:12:33.692Z",
+        "withdrawn": true,
+        "dateJoined": "string",
+        "dateWithdrawn": "string",
+        "description": "string"
+      },
+      "period": {
+        "id": 0,
+        "name": "string",
+        "startDate": "string",
+        "endDate": "string",
+        "periodType": {
+          "id": 0,
+          "name": "string"
+        }
+      },
+      "createdBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.692Z"
+      },
+      "updatedBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.692Z"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559558480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

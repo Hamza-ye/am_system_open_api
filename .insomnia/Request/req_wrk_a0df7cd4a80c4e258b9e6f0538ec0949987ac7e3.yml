@@ -1,0 +1,33 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949987ac7e3
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558212
+created: 1657559558212
+url: "{{ base_url }}/api/_search/chv-malaria-case-reports"
+name: /api/_search/chv-malaria-case-reports
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: query
+    disabled: false
+    value: string
+  - name: page
+    disabled: true
+    value: "0"
+  - name: size
+    disabled: true
+    value: "20"
+  - name: sort
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1657559558212
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

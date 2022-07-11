@@ -1,0 +1,87 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949a11d293f
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559293
+created: 1657559559293
+url: "{{ base_url }}/api/chv-monthly-malaria-reports/{{ id }}"
+name: /api/chv-monthly-malaria-reports/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "uid": "string",
+      "created": "2022-07-11T17:12:33.687Z",
+      "updated": "2022-07-11T17:12:33.687Z",
+      "tested": 0,
+      "positive": 0,
+      "pv": 0,
+      "pf": 0,
+      "mix": 0,
+      "unApproved": 0,
+      "simpleMalaria": 0,
+      "severeMalaria": 0,
+      "drugs": 0,
+      "supps": 0,
+      "referrals": 0,
+      "status": "string",
+      "comment": "string",
+      "createdBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.687Z"
+      },
+      "updatedBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.687Z"
+      },
+      "chv": {
+        "id": 0,
+        "uid": "string",
+        "code": "string",
+        "created": "2022-07-11T17:12:33.687Z",
+        "updated": "2022-07-11T17:12:33.687Z",
+        "withdrawn": true,
+        "dateJoined": "string",
+        "dateWithdrawn": "string",
+        "description": "string"
+      },
+      "period": {
+        "id": 0,
+        "name": "string",
+        "startDate": "string",
+        "endDate": "string",
+        "periodType": {
+          "id": 0,
+          "name": "string"
+        }
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559559293
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

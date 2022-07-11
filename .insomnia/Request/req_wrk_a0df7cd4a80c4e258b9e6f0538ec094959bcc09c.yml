@@ -1,0 +1,25 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec094959bcc09c
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559560021
+created: 1657559560021
+url: "{{ base_url }}/api/people/{{ id }}"
+name: /api/people/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559560021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

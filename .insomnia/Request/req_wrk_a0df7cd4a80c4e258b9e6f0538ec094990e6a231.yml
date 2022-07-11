@@ -1,0 +1,28 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec094990e6a231
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568309986
+created: 1657559558426
+url: "{{ base_url }}/api/authenticate"
+name: /api/authenticate
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTY2MDE1MTk1OH0.h9Zd9AxGDzX2obt36xKo90PEaf00_la0nUAf9VSOa7WKobaRauUZ5xLdoXservgg-QtC6mcX9by9VOQIIDJfeg
+    description: ""
+    id: pair_4461290a84ca450196b721a0d60f735d
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558371
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

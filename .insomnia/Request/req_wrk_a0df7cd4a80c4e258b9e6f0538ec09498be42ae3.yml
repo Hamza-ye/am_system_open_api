@@ -1,0 +1,25 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09498be42ae3
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559516
+created: 1657559559516
+url: "{{ base_url }}/api/data-sets/{{ id }}"
+name: /api/data-sets/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "null"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559559516
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

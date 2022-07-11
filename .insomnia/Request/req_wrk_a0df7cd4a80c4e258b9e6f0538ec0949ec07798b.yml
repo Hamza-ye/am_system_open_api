@@ -1,0 +1,35 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949ec07798b
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568370933
+created: 1657559558313
+url: "{{ base_url }}/api/users"
+name: /api/users
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "0"
+    id: pair_18cac9ad71a0468d87f7db5314342a80
+  - name: size
+    disabled: true
+    value: "20"
+    id: pair_3474ab2b41e84086a62409480aa63fe8
+  - name: sort
+    disabled: true
+    value: string
+    id: pair_ea4e20704f474cbc8110b0b97465e723
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

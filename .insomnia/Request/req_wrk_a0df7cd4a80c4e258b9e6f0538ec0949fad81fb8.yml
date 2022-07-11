@@ -1,0 +1,24 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949fad81fb8
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558231
+created: 1657559558231
+url: "{{ base_url }}/api/_search/demographic-data-sources"
+name: /api/_search/demographic-data-sources
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: query
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1657559558231
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949544d7e08
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568279800
+created: 1657559558366
+url: "{{ base_url }}/api/account"
+name: /api/account
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558366
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

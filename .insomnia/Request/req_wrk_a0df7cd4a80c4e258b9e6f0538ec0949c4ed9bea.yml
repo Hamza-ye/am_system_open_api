@@ -1,0 +1,24 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949c4ed9bea
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558385
+created: 1657559558385
+url: "{{ base_url }}/api/age-categories"
+name: /api/age-categories
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: eagerload
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1657559558385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

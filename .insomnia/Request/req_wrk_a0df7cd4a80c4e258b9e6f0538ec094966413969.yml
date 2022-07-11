@@ -1,0 +1,113 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec094966413969
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558544
+created: 1657559558544
+url: "{{ base_url }}/api/chv-stock-movements"
+name: /api/chv-stock-movements
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "uid": "string",
+      "created": "2022-07-11T17:12:33.691Z",
+      "updated": "2022-07-11T17:12:33.691Z",
+      "date": "2022-07-11T17:12:33.691Z",
+      "remainingPreviousMonth": 0,
+      "received": 0,
+      "consumed": 0,
+      "lostCorr": 0,
+      "remainingThisMonth": 0,
+      "status": "string",
+      "stockType": {
+        "id": 0,
+        "uid": "string",
+        "code": "string",
+        "name": "string",
+        "shortName": "string",
+        "description": "string",
+        "created": "2022-07-11T17:12:33.691Z",
+        "updated": "2022-07-11T17:12:33.691Z",
+        "createdBy": {
+          "id": 0,
+          "login": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "email": "string",
+          "activated": true,
+          "langKey": "string",
+          "imageUrl": "string",
+          "resetDate": "2022-07-11T17:12:33.691Z"
+        },
+        "updatedBy": {
+          "id": 0,
+          "login": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "email": "string",
+          "activated": true,
+          "langKey": "string",
+          "imageUrl": "string",
+          "resetDate": "2022-07-11T17:12:33.691Z"
+        }
+      },
+      "chv": {
+        "id": 0,
+        "uid": "string",
+        "code": "string",
+        "created": "2022-07-11T17:12:33.691Z",
+        "updated": "2022-07-11T17:12:33.691Z",
+        "withdrawn": true,
+        "dateJoined": "string",
+        "dateWithdrawn": "string",
+        "description": "string"
+      },
+      "period": {
+        "id": 0,
+        "name": "string",
+        "startDate": "string",
+        "endDate": "string",
+        "periodType": {
+          "id": 0,
+          "name": "string"
+        }
+      },
+      "createdBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.691Z"
+      },
+      "updatedBy": {
+        "id": 0,
+        "login": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "activated": true,
+        "langKey": "string",
+        "imageUrl": "string",
+        "resetDate": "2022-07-11T17:12:33.691Z"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559558544
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

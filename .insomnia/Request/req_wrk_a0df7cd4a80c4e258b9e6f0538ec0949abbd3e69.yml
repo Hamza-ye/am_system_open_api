@@ -1,0 +1,23 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949abbd3e69
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568392453
+created: 1657559558278
+url: "{{ base_url }}/api/admin/users/{{ login }}"
+name: /api/admin/users/{login}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

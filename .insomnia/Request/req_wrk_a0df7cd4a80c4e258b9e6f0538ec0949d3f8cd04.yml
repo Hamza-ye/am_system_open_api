@@ -1,0 +1,24 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949d3f8cd04
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558175
+created: 1657559558175
+url: "{{ base_url }}/api/_search/chv-ed-session-types"
+name: /api/_search/chv-ed-session-types
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: query
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1657559558175
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

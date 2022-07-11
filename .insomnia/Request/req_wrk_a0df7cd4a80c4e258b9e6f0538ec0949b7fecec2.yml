@@ -1,0 +1,24 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949b7fecec2
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558759
+created: 1657559558759
+url: "{{ base_url }}/api/gps-locations"
+name: /api/gps-locations
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: eagerload
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1657559558759
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

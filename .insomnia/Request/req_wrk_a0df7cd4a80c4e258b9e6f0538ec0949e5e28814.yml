@@ -1,0 +1,46 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949e5e28814
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657568322928
+created: 1657559558354
+url: "{{ base_url }}/api/account"
+name: /api/account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 1,
+      "login": "admin",
+      "firstName": "Administrator",
+      "lastName": "Administrator",
+      "email": "hamza@nmcpye.org",
+      "imageUrl": "",
+      "activated": true,
+      "langKey": "en",
+      "createdBy": "system",
+      "createdDate": null,
+      "lastModifiedBy": "system",
+      "lastModifiedDate": null,
+      "authorities": [
+        "ROLE_USER",
+        "ROLE_ADMIN"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_64f8ee6bf2a44e22a949adbad5ce6ec2
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1657559558354
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

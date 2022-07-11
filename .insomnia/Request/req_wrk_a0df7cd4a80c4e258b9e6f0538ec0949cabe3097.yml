@@ -1,0 +1,30 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949cabe3097
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559023
+created: 1657559559023
+url: "{{ base_url }}/api/admin/users"
+name: /api/admin/users
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    disabled: true
+    value: "0"
+  - name: size
+    disabled: true
+    value: "20"
+  - name: sort
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1657559559023
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

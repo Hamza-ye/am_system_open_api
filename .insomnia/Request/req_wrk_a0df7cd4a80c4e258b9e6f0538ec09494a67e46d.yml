@@ -1,0 +1,43 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09494a67e46d
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558975
+created: 1657559558975
+url: "{{ base_url }}/api/register"
+name: /api/register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "login": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "imageUrl": "string",
+      "activated": true,
+      "langKey": "string",
+      "createdBy": "string",
+      "createdDate": "2022-07-11T17:12:33.689Z",
+      "lastModifiedBy": "string",
+      "lastModifiedDate": "2022-07-11T17:12:33.689Z",
+      "authorities": [
+        "string"
+      ],
+      "password": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559558975
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

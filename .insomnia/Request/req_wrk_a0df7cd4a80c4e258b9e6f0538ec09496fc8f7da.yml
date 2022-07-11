@@ -1,0 +1,24 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09496fc8f7da
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558797
+created: 1657559558797
+url: "{{ base_url }}/api/malaria-unit-staff-members"
+name: /api/malaria-unit-staff-members
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: eagerload
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1657559558797
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

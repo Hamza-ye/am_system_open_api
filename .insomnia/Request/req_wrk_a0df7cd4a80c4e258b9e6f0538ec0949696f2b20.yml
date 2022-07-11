@@ -1,0 +1,35 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949696f2b20
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559559908
+created: 1657559559908
+url: "{{ base_url }}/api/organisation-unit-levels/{{ id }}"
+name: /api/organisation-unit-levels/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "uid": "string",
+      "code": "string",
+      "name": "string",
+      "created": "2022-07-11T17:12:33.684Z",
+      "updated": "2022-07-11T17:12:33.684Z",
+      "level": 0,
+      "offlineLevels": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1657559559908
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

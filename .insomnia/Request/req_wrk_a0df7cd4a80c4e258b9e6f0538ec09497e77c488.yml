@@ -1,0 +1,33 @@
+_id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09497e77c488
+type: Request
+parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
+modified: 1657559558249
+created: 1657559558249
+url: "{{ base_url }}/api/_search/organisation-unit-groups"
+name: /api/_search/organisation-unit-groups
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: query
+    disabled: false
+    value: string
+  - name: page
+    disabled: true
+    value: "0"
+  - name: size
+    disabled: true
+    value: "20"
+  - name: sort
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1657559558249
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
