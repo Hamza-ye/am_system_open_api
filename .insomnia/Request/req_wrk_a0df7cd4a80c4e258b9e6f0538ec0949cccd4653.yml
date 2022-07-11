@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949cccd4653
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558264
+modified: 1657568503266
 created: 1657559558264
 url: "{{ base_url }}/api/_search/people"
 name: /api/_search/people
@@ -12,17 +12,23 @@ parameters:
   - name: query
     disabled: false
     value: string
+    id: pair_75c3c270d9464249bf0986156621ceb1
   - name: page
     disabled: true
     value: "0"
+    id: pair_b6e47658726c4bc08bf583c2050fde88
   - name: size
     disabled: true
     value: "20"
+    id: pair_f618919ec6b2465fa78ecb06acb48402
   - name: sort
     disabled: true
     value: string
+    id: pair_1edf06261b83439a999514e16ce6ee08
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558264
 isPrivate: false
 settingStoreCookies: true
