@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949824fe9fb
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558597
+modified: 1657842036438
 created: 1657559558597
 url: "{{ base_url }}/api/chv-teams"
 name: /api/chv-teams
@@ -12,17 +12,23 @@ parameters:
   - name: page
     disabled: true
     value: "0"
+    id: pair_a7c9d5514a7c44b08af815681f45737d
   - name: size
     disabled: true
     value: "20"
+    id: pair_a2826281dca54ae7b4e664fd550de00d
   - name: sort
     disabled: true
     value: string
+    id: pair_542e34404e074263870c12fc8c90d364
   - name: eagerload
     disabled: true
     value: "true"
+    id: pair_d556f9f31e5c4b69a952783f75a852e4
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558597
 isPrivate: false
 settingStoreCookies: true

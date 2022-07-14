@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949acb95ca2
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558716
+modified: 1657841968760
 created: 1657559558716
 url: "{{ base_url }}/api/demographic-data"
 name: /api/demographic-data
@@ -12,8 +12,11 @@ parameters:
   - name: eagerload
     disabled: true
     value: "true"
+    id: pair_598e29d7db5949d681f775dd094a3acf
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558716
 isPrivate: false
 settingStoreCookies: true
