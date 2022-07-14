@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949b7fecec2
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558759
+modified: 1657824922892
 created: 1657559558759
 url: "{{ base_url }}/api/gps-locations"
 name: /api/gps-locations
@@ -12,8 +12,11 @@ parameters:
   - name: eagerload
     disabled: true
     value: "true"
+    id: pair_42bf1aff573e4ca58e39c3714ec1d138
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558759
 isPrivate: false
 settingStoreCookies: true

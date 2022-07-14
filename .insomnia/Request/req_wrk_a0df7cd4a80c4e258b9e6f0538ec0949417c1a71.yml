@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949417c1a71
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558621
+modified: 1657841738014
 created: 1657559558621
 url: "{{ base_url }}/api/chvs"
 name: /api/chvs
@@ -12,17 +12,23 @@ parameters:
   - name: page
     disabled: true
     value: "0"
+    id: pair_b7d5c33dea4740278c8b93cb8a37ec17
   - name: size
     disabled: true
     value: "20"
+    id: pair_08ea3169a19b48579f63aeb7ce4e18f5
   - name: sort
     disabled: true
     value: string
+    id: pair_096d434e35fa46dba4695ae99ed0657e
   - name: eagerload
     disabled: true
     value: "true"
+    id: pair_fbdc189898c244ca984eb2ece121923d
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558621
 isPrivate: false
 settingStoreCookies: true

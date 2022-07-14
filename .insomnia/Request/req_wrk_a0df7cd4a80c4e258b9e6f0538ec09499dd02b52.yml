@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09499dd02b52
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558532
+modified: 1657804872238
 created: 1657559558532
 url: "{{ base_url }}/api/chv-monthly-malaria-reports"
 name: /api/chv-monthly-malaria-reports
@@ -12,17 +12,23 @@ parameters:
   - name: page
     disabled: true
     value: "0"
+    id: pair_eae0f7b2160a4e4fb4a783af5dffe4fb
   - name: size
     disabled: true
     value: "20"
+    id: pair_61871c322ae0406582e161535e237813
   - name: sort
     disabled: true
     value: string
+    id: pair_23dd82b7e4f94491940a6b694cb61d0e
   - name: eagerload
     disabled: true
     value: "true"
+    id: pair_771d3bd318364148b004ce5e9c4fc79d
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558532
 isPrivate: false
 settingStoreCookies: true

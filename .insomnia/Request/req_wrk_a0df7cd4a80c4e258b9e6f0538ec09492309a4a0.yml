@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09492309a4a0
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558890
+modified: 1657837747865
 created: 1657559558890
 url: "{{ base_url }}/api/organisation-units"
 name: /api/organisation-units
@@ -12,17 +12,23 @@ parameters:
   - name: page
     disabled: true
     value: "0"
+    id: pair_81c3cece36354f3a8b5cfc4e40482b6e
   - name: size
     disabled: true
     value: "20"
+    id: pair_d94fdcfd48ac4f7e918800a7120fcb89
   - name: sort
     disabled: true
     value: string
+    id: pair_a491f8ad54054b91b347ec1aa54a01b5
   - name: eagerload
     disabled: true
     value: "true"
+    id: pair_b45da079e489440fa701c759efdc6bfd
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558890
 isPrivate: false
 settingStoreCookies: true

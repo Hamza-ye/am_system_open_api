@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec0949558b4cce
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558498
+modified: 1657805506296
 created: 1657559558498
 url: "{{ base_url }}/api/chv-malaria-case-reports"
 name: /api/chv-malaria-case-reports
@@ -14,7 +14,10 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+    id: pair_fb72816a98264c599d3211e29e4a2937
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558498
 isPrivate: false
 settingStoreCookies: true

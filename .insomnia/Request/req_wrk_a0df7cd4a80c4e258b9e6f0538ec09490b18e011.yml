@@ -1,7 +1,7 @@
 _id: req_wrk_a0df7cd4a80c4e258b9e6f0538ec09490b18e011
 type: Request
 parentId: wrk_a0df7cd4a80c4e258b9e6f0538ec0949
-modified: 1657559558926
+modified: 1657841754602
 created: 1657559558926
 url: "{{ base_url }}/api/people"
 name: /api/people
@@ -12,17 +12,23 @@ parameters:
   - name: page
     disabled: true
     value: "0"
+    id: pair_ee859b340847422b9a96c3e867fb6082
   - name: size
     disabled: true
     value: "20"
+    id: pair_2ae5ae7e77db4d0da853f8774d6da110
   - name: sort
     disabled: true
     value: string
+    id: pair_5ec21791d08f49408a21f43cac292139
   - name: eagerload
     disabled: true
     value: "true"
+    id: pair_7ab6360e09104fe3b66b8a26c2f199fb
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1657559558926
 isPrivate: false
 settingStoreCookies: true
