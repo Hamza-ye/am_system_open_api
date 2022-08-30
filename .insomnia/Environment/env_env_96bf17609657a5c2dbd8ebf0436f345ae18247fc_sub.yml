@@ -1,14 +1,14 @@
 _id: env_env_96bf17609657a5c2dbd8ebf0436f345ae18247fc_sub
 type: Environment
 parentId: env_96bf17609657a5c2dbd8ebf0436f345ae18247fc
-modified: 1658363659152
+modified: 1661871119638
 created: 1657559560187
 name: OpenAPI env
 data:
   scheme: http
   base_path: ""
   host: localhost:8080
-  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTY2MDk1NTUwN30.PUPTlrqCk1gC5qIjNRrGrvzDXa4kRSdDIgAoviefcmlwjKpc70C9B_J06L45BlUAqIEYMu4NhGyxzHsuewBSPA
+  token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTY2NDQ2MzA4NX0.haFqx3wwsxboKMrfhwbeKKiXy5LJdhK6Ews7h21dho9qmpdavv5M2Dm4R72BI3nmO3vv3wldgkfkq3Z7I7K0fA
 dataPropertyOrder:
   "&":
     - scheme
